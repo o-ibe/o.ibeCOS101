@@ -32,5 +32,7 @@ fn main() {
         let mut contents = String::new();
         file.read_to_string(&mut contents).unwrap();
         print!("{}", contents);
+    } else {
+        print!("Not a valid criteria");
     }
 }
